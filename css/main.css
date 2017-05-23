@@ -20,9 +20,9 @@ body {
 
 
 .portfolio {
-    height: 513px;
-    
+    height: 300px;
 }
+
 #pcomplet{
     height: 200px;
     background-color: white;
@@ -62,7 +62,6 @@ h6 {
     padding: 5px;
     margin-top: 90px;
     margin-bottom: 40px;
-
 }
 
 
@@ -82,12 +81,6 @@ h6 {
     margin-right: 0;
 }
 
-#clients{
-    
-    height: 380px;
-}
-
-
 hr {
     border-color: #ff3232;
     margin: 3px;
@@ -105,9 +98,6 @@ hr {
     margin-bottom: 30px;
 }
 
-.trouver {
-    height: 560px;
-}
 #trouver {
     margin-bottom: 0;
 }
@@ -117,40 +107,39 @@ footer {
     background-color: #ff3232;
 }
 
-
-.slider {
-    position: relative;
-    z-index: 1;
-
+body > div.portfolio > div:nth-child(2) {
+    margin-bottom: 30px;
+}
+.portfolio h4 {
+    margin-top: 30px;
 }
 
-body > div > div.carrousel.row > div.image > div > img {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 0px;
-    z-index: 0;
+#carousel-example-generic > div > div.item.active > div > div > div {
+    position: absolute;
+    top: 10px;
+    left: 172px;
+}
+
+#carousel-example-generic > div > div.item.active > div > div > div > h5{
+    font-size: 9px;
 }
 
 
 h5 > span {
-    font-size: 9px;
+    font-size: 7px;
     text-transform: lowercase;
 }
 #carousel .border{
     border: 1px solid #ff3232 ;
     transform: skewX(-45deg);
     background-color: white;
-    position: relative;
-    right: -195px;
-    top: 120px;
-
 }
 
 .carousel-control.left {
     background-image: none;
     color: #ff3232;
-/*    textshadow et opacité*/
 }
+
 .carousel-control.right {
     background-image: none;
     color: #ff3232;
@@ -158,6 +147,8 @@ h5 > span {
 
 .carousel-control .icon-next, .carousel-control .icon-prev {
     background-color: white;
+    position: absolute;
+    top: 100px;
 }
 
 .carousel-control {
@@ -168,23 +159,14 @@ h5 > span {
 #carousel-example-generic {
     height: 322px;
     background-color: white;
-    position: relative;
-    top: 30px;
 }
-
-
-
-#carousel-example-generic > div {
-    position: absolute;
-    top : 0px;
-    
-}
-
 
 .carousel-caption {
     text-shadow: none;
-    position: absolute;
-    top: -30px;
+}
+
+.carousel-indicators {
+    bottom: 123px;
 }
 
 body > div.portfolio > div.nosdernieresreal.container-fluid {
@@ -235,12 +217,70 @@ h4 {
 
 
 
-
 .form-control {
     color: #ff3232;
-    border-radius: 0;
+    border: 2px solid #ff3232;
   
 }
+
+.droite {
+    color:black;
+    font-family: GinoraSans*;
+    font-size:18px;
+}
+
+.form-control:focus {
+    border-color: #ff3232;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+.form-control::-webkit-input-placeholder {
+    color: #ff3232;
+    font-family: GinoraSans*;
+    font-size:15px;
+}
+
+
+.form-control:-moz-placeholder {
+    color: #ff3232;
+    font-family: GinoraSans*;
+    font-size:15px;
+}
+
+
+.form-control::-moz-placeholder {
+    color: #ff3232;
+    font-family: GinoraSans*;
+    font-size:15px;
+}
+
+
+.form-control:-ms-input-placeholder {
+    color: #ff3232;
+    font-family: GinoraSans*;
+    font-size:15px;
+}
+
+.btn-primary {
+    color: #ff3232;
+    background-color: #f0f0f0;
+    border: 1px solid #ff3232;
+    font-family: GinoraSans*;
+    font-size:15px;
+    margin-top: 10px;
+}
+
+#contact > div:nth-child(3) > div > button:active{
+    background-color: #ff3232;
+    border:#ff3232 ;
+}
+
+.boutonform {
+    padding-top: 15px;
+}
+
 
 .droite {
     color:black;
@@ -303,17 +343,6 @@ height: 500px;
     margin-bottom: 7px;
 }
 
-
-
-/*article{
-    border: 2px solid #ff3232;
-    background-color: #f0f0f0;
-    opacity: 0.9;
-    top: 61px;
-    z-index: 2;
-} penser à renommer */
-
-
 #toffres{
     border-bottom: 2px solid #ff3232
 }
@@ -329,4 +358,14 @@ height: 500px;
 
 hr {
     width: 100%;
+}
+
+#map > iframe {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#noustrouver > div.container {
+    padding-left: 0px;
+    padding-right: 0px;
 }
