@@ -120,8 +120,7 @@ body > div.portfolio > div:nth-child(2) {
 
 #carousel-example-generic > div > div.item.active > div > div > div {
     position: absolute;
-    top: 10px;
-    left: 172px;
+    top: 0px;
 }
 
 #carousel-example-generic > div > div.item.active > div > div > div > h5{
@@ -151,8 +150,6 @@ h5 > span {
 
 .carousel-control .icon-next, .carousel-control .icon-prev {
     background-color: white;
-    position: absolute;
-    top: 100px;
 }
 
 .carousel-control {
@@ -180,10 +177,8 @@ h5 > span {
 
 .carousel-caption {
     text-shadow: none;
-}
-
-.carousel-indicators {
-    bottom: 123px;
+    top: -5px;
+    position: absolute;
 }
 
 body > div.portfolio > div.nosdernieresreal.container-fluid {
