@@ -342,3 +342,8 @@ img {
 .modal-content {
     background-color: #ff3232;
 }
+
+.border-c{
+    margin-left: 25px;
+    margin-top: 5px;
+}
