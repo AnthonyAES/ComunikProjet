@@ -10,18 +10,13 @@ body {
 }
 
 
-.container {
-    margin: 0;
-    padding-left: 0px;
-    padding-right: 0px;
+.container, .container-fluid, .row {
+    overflow: hidden;
 }
 
-.container-fluid  {
+.row {
     margin: 0;
-    padding-left: 0px;
-    padding-right: 0px;
 }
-
 
 .portfolio {
     height: 513px;
@@ -338,3 +333,11 @@ height: 500px;
     border-color: #ff3232;
 }
 
+#contacter > .row > div {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+hr {
+    width: 100%;
+}
