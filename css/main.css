@@ -33,6 +33,13 @@ body {
 
 }
 
+.border{
+    border: 2px solid #ff3232;
+    transform: skewX(-45deg);
+    background-color: white;
+    position: relative;
+}
+
 
 .branding{
     color: #ff3232 ;
@@ -134,23 +141,42 @@ h5 > span {
     font-size: 9px;
     text-transform: lowercase;
 }
-.border{
+#carousel .border{
     border: 1px solid #ff3232 ;
     transform: skewX(-45deg);
     background-color: white;
-    position: absolute;
-    top: 151px;
-    left: -13px;
+    right: -195px;
+    top: 120px;
+
 }
 
-
-
+.carousel-control.left {
+    background-image: none;
+    color: #ff3232;
+}
+.carousel-control.right {
+    background-image: none;
+    color: #ff3232;
+}
 .nosdernieresreal {
  height: 40px;   
 }
 
 
+#carousel-example-generic {
+    height: 189.25px;
+    background-color: white;
+    position: relative;
+    top: 30px;
+}
 
+
+
+#carousel-example-generic > div {
+    position: absolute;
+    top : 0px;
+    
+}
 
 /*carrousel*/
 
@@ -176,7 +202,8 @@ h5 > span {
 .carousel-caption {
     text-shadow: none;
     position: absolute;
-    top: -20px;
+    top: -30px;
+
     
 }
 
@@ -291,13 +318,7 @@ height: 500px;
     margin-bottom: 7px;
 }
 
-.border{
-    border: 2px solid #ff3232;
-    transform: skewX(-45deg);
-    background-color: white;
-    position: relative;
-    top:35px;
-}
+
 
 /*article{
     border: 2px solid #ff3232;
