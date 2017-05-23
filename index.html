@@ -19,6 +19,7 @@
         
         <!--CSS-->
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/ekko-lightbox.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/main.css" />      
     </head>
     
@@ -211,7 +212,36 @@ Menu déroulant
         <div class="container" id="pcomplet">
 
             <div class="row">
-                    <h6 class="col-xs-offset-2 col-xs-8">PORTFOLIO COMPLET</h6>
+                <div class="col-xs-offset-2 col-xs-8">
+                    <button type="button" class="btn-port">PORTFOLIO COMPLET</button>
+                </div>
+            </div>
+            
+            <div class="row galery">
+                <div class="col-xs-12">
+                    <div class="row">
+                        <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-xs-4">
+                            <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+                        </a>
+                        <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-xs-4">
+                            <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
+                        </a>
+                        <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-xs-4">
+                            <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-xs-4">
+                            <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
+                        </a>
+                        <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-xs-4">
+                            <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
+                        </a>
+                        <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-xs-4">
+                            <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
             </div>
         
         </div>
@@ -225,6 +255,7 @@ Menu déroulant
                </div>
                 
             </div>
+            
             <div class="row">        
                  <hr align ="left" class="col-xs-5"></hr>
             </div>
@@ -376,7 +407,14 @@ Menu déroulant
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/ekko-lightbox.min.js"></script>
+<script>
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
+</script>
 
 
 </body>
