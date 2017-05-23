@@ -10,19 +10,6 @@ body {
 }
 
 
-.container {
-    margin: 0;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.container-fluid  {
-    margin: 0;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-
 .portfolio {
     height: 513px;
     
@@ -30,7 +17,6 @@ body {
 #pcomplet{
     height: 200px;
     background-color: white;
-
 }
 
 .border{
@@ -145,6 +131,7 @@ h5 > span {
     border: 1px solid #ff3232 ;
     transform: skewX(-45deg);
     background-color: white;
+    position: relative;
     right: -195px;
     top: 120px;
 
@@ -153,11 +140,22 @@ h5 > span {
 .carousel-control.left {
     background-image: none;
     color: #ff3232;
+/*    textshadow et opacité*/
 }
 .carousel-control.right {
     background-image: none;
     color: #ff3232;
 }
+
+.carousel-control .icon-next, .carousel-control .icon-prev {
+    background-color: white;
+}
+
+.carousel-control {
+    text-shadow: none;
+    opacity: 1;
+}
+
 .nosdernieresreal {
  height: 40px;   
 }
@@ -178,33 +176,11 @@ h5 > span {
     
 }
 
-/*carrousel*/
-
-
-/*#myCarousel > a.right.carousel-control {
-    position: relative;
-}
-
-#myCarousel > a.left.carousel-control > span.glyphicon.glyphicon-chevron-left {
-    background-color: yellow;
-    position: absolute;
-    top: 10px;
-}
-
-#myCarousel > a.right.carousel-control > span.glyphicon.glyphicon-chevron-right {
-    background-color: red;
-    position: absolute;
-    left: 350px;
-    text-decoration: none;
-}*/
-
 
 .carousel-caption {
     text-shadow: none;
     position: absolute;
     top: -30px;
-
-    
 }
 
 /*css natalia*/
