@@ -124,19 +124,9 @@ body > div.portfolio > div:nth-child(2) {
 }
 
 #carousel-example-generic > div > div.item.active > div > div > div > h5{
-    font-size: 9px;
+    font-size: 12px;
 }
 
-
-h5 > span {
-    font-size: 7px;
-    text-transform: lowercase;
-}
-#carousel .border{
-    border: 1px solid #ff3232 ;
-    transform: skewX(-45deg);
-    background-color: white;
-}
 
 .carousel-control.left {
     background-image: none;
