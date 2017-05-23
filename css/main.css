@@ -66,10 +66,6 @@ h6 {
 }
 
 
-#real {
-    padding-right: 0px;
-    padding-left: 0px;
-}
 
 #sstitreportfolio > div > hr {
     margin-top: 0;
@@ -81,6 +77,10 @@ h6 {
 }
 
 
+.portfolio > .row > div {
+    padding-right: 0;
+    margin-right: 0;
+}
 
 #clients{
     
@@ -165,13 +165,8 @@ h5 > span {
     opacity: 1;
 }
 
-.nosdernieresreal {
- height: 40px;   
-}
-
-
 #carousel-example-generic {
-    height: 189.25px;
+    height: 322px;
     background-color: white;
     position: relative;
     top: 30px;
@@ -190,6 +185,11 @@ h5 > span {
     text-shadow: none;
     position: absolute;
     top: -30px;
+}
+
+body > div.portfolio > div.nosdernieresreal.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /*css natalia*/
