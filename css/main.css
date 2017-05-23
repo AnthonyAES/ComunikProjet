@@ -153,6 +153,7 @@ h5 > span {
 .carousel-control.left {
     background-image: none;
     color: #ff3232;
+/*    textshadow et opacité*/
 }
 .carousel-control.right {
     background-image: none;
