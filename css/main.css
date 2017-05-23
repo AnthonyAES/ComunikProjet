@@ -23,248 +23,6 @@ body {
 }
 
 
-.portfolio {
-    height: 513px;
-    
-}
-#pcomplet{
-    height: 200px;
-    background-color: white;
-
-}
-
-
-.branding{
-    color: #ff3232 ;
-    text-align: center;
-    transform: skewX(45deg);
-    margin-top: 11px;
-    margin-bottom: 11px;
-    text-transform: uppercase;
-    font-size: 12px;
-}
-
-
-h3 {
-    margin-top: 60px;
-}
-
-.container .ligne {
-        margin-bottom: 30px;
-}
-
-h6 {
-    border: solid 1px #ff3232;
-    font-size: 20px;
-    text-align: center;
-    padding: 5px;
-    margin-top: 90px;
-    margin-bottom: 40px;
-
-}
-
-
-#real {
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-#sstitreportfolio > div > hr {
-    margin-top: 0;
-}
-
-#sstitreportfolio{
-    
-    height: 55px;  
-}
-
-
-
-#clients{
-    
-    height: 380px;
-}
-
-
-hr {
-    border-color: #ff3232;
-    margin: 3px;
-    margin-bottom: 10px;
-}
-
-#clients > div {
-    margin: 0;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-#clients > div > p {
-    font-size: 15px;
-    margin-bottom: 30px;
-}
-
-.trouver {
-    height: 560px;
-}
-#trouver {
-    margin-bottom: 0;
-}
-
-footer {
-    height: 70px;
-    background-color: #ff3232;
-}
-
-
-.slider {
-    position: relative;
-    z-index: 1;
-
-}
-
-body > div > div.carrousel.row > div.image > div > img {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 0px;
-    z-index: 0;
-}
-
-
-h5 > span {
-    font-size: 9px;
-    text-transform: lowercase;
-}
-.border{
-    border: 1px solid #ff3232 ;
-    transform: skewX(-45deg);
-    background-color: white;
-    position: absolute;
-    top: 151px;
-    left: -13px;
-}
-
-
-
-.nosdernieresreal {
- height: 40px;   
-}
-
-
-
-
-/*carrousel*/
-
-
-/*#myCarousel > a.right.carousel-control {
-    position: relative;
-}
-
-#myCarousel > a.left.carousel-control > span.glyphicon.glyphicon-chevron-left {
-    background-color: yellow;
-    position: absolute;
-    top: 10px;
-}
-
-#myCarousel > a.right.carousel-control > span.glyphicon.glyphicon-chevron-right {
-    background-color: red;
-    position: absolute;
-    left: 350px;
-    text-decoration: none;
-}*/
-
-
-.carousel-caption {
-    text-shadow: none;
-    position: absolute;
-    top: -20px;
-    
-}
-
-/*css natalia*/
-
-
-.paragraphe1 {
-    font-size: 14px;
-    
-}
-
-header {
-    height: 700px
-}
-
-#contacter{
-background-color: #f0f0f0;
-padding-left: 0px; padding-right: 0px;
-height: 450px;
-
-}
-
-.container {
-     color: #ff3232;
-}
-
-.gauche {
-    color:black;
-    font-family: GinoraSans*;
-    font-size:18px;
-}
-
-h4 {
-    font-size: 18px;
-    color: #ff3232;
-}
-
-
-#contacter p {
-    font-size: 12px;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-
-
-
-.form-control {
-    color: #ff3232;
-    border-radius: 0;
-  
-}
-
-.droite {
-    color:black;
-    font-family: GinoraSans*;
-    font-size:18px;
-}
-
-textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="nom"]:focus
-border-color: rgba(126, 239, 104, 0.8);
-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
-outline: 0 none;}
-
-
-
-#contacter > div.container > div > div.gauche > img {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-#contacter > div.container > div > div.droite > img {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-
-.contact-form input {
-    border: solid 1px #ff3232;
-    background-color: #f0f0f0;
-    color: #ff3232;
-}
-
-#message {
-border: solid 1px #ff3232;   
-background-color: #f0f0f0;
-}
-
 /*
 CSS ALEX 
 */
@@ -283,12 +41,12 @@ height: 500px;
 
 
 .titre2{
-    font:16px;
     color: #ff3232;
     text-align: center;
     transform: skewX(45deg);
     margin-top: 7px;
     margin-bottom: 7px;
+    font-size: 9px;
 }
 
 .border{
@@ -296,16 +54,38 @@ height: 500px;
     transform: skewX(-45deg);
     background-color: white;
     position: relative;
-    top:35px;
+    top:-55px;
+    width: 100px;
 }
 
-/*article{
+body > div.container-fluid.nosoffres > div:nth-child(3){
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+}
+
+body > div.container-fluid.nosoffres > div:nth-child(3) > div:nth-child(3){
+    left: 296px;
+    position: absolute;
+}
+
+body > div.container-fluid.nosoffres > div:nth-child(3) > div:nth-child(2){
+    left: 162px;
+    position: absolute;
+}
+
+body > div.container-fluid.nosoffres > div:nth-child(3) > div:nth-child(1){
+    left: 27px;
+    position: absolute;
+}
+
+text{
     border: 2px solid #ff3232;
     background-color: #f0f0f0;
     opacity: 0.9;
     top: 61px;
     z-index: 2;
-} penser à renommer */
+} 
 
 
 #toffres{
@@ -316,3 +96,7 @@ height: 500px;
     border-color: #ff3232;
 }
 
+body > div.container-fluid.nosoffres > div:nth-child(3) > article > p{
+    border: 2px solid #ff3232;
+
+}
