@@ -9,7 +9,6 @@ body {
     width: 100%;
 }
 
-
 .container, .container-fluid, .row {
     overflow: hidden;
 }
@@ -17,13 +16,6 @@ body {
 .row {
     margin: 0;
 }
-
-
-
-.portfolio {
-    height: 300px;
-}
-
 
 #pcomplet{
     background-color: white;
