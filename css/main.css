@@ -549,4 +549,8 @@ a{color:#336699;}
     .titreentete {
         margin-top: 30vh;
     }
+    
+    #confiance {
+        text-align: right;
+    }
 }
