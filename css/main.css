@@ -9,316 +9,19 @@ body {
     width: 100%;
 }
 
-.container, .container-fluid, .row {
-    overflow: hidden;
-}
-
-.row {
-    margin: 0;
-}
-
-#pcomplet{
-    background-color: white;
-}
-
-.border{
-    border: 2px solid #ff3232;
-    transform: skewX(-45deg);
-    background-color: white;
-    position: relative;
-}
-
-
-.branding{
-    color: #ff3232 ;
-    text-align: center;
-    transform: skewX(45deg);
-    margin-top: 11px;
-    margin-bottom: 11px;
-    text-transform: uppercase;
-    font-size: 12px;
-}
-
-
-h3 {
-    margin-top: 60px;
-}
-
-.container .ligne {
-        margin-bottom: 30px;
-}
-
-h6 {
-    border: solid 1px #ff3232;
-    font-size: 20px;
-    text-align: center;
-    padding: 5px;
-    margin-top: 90px;
-    margin-bottom: 40px;
-}
-
-.btn-port {
-    border: solid 2px #ff3232;
-    font-size: 15px;
-    width: 100%;
-    text-align: center;
-    padding: 5px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    background-color: transparent;
-}
-
-
-#sstitreportfolio > div > hr {
-    margin-top: 0;
-}
-
-#sstitreportfolio{
-    margin-top: 10px;
-    height: 55px;  
-}
-
-
-.portfolio > .row > div {
-    padding-right: 0;
-    margin-right: 0;
-}
-
-
-hr {
-    border-color: #ff3232;
-    margin: 3px;
-    margin-bottom: 10px;
-}
-
-#clients > div {
-    margin: 0;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-#clients > div > p {
-    font-size: 15px;
-    margin-bottom: 30px;
-}
-
-#trouver {
-    margin-bottom: 0;
-}
-
-footer {
-    height: 40px;
-    background-color: #ff3232;
-}
-
-body > div.portfolio > div:nth-child(2) {
-    margin-bottom: 30px;
-}
-.portfolio h4 {
-    margin-top: 30px;
-}
-
-#carousel-example-generic > div > div.item.active > div > div > div {
-    position: absolute;
-    top: 0px;
-}
-
-#carousel-example-generic > div > div.item.active > div > div > div > h5{
-    font-size: 12px;
-}
-
-
-.carousel-control.left {
-    background-image: none;
-    color: #ff3232;
-}
-
-.carousel-control.right {
-    background-image: none;
-    color: #ff3232;
-}
-
-.carousel-control .icon-next, .carousel-control .icon-prev {
-    background-color: white;
-}
-
-.carousel-control {
-    text-shadow: none;
-    opacity: 1;
-}
-
-#carousel-example-generic {
-    height: 210px;
-    background-color: white;
-}
-
-
-
-#carousel-example-generic > div {
-    position: absolute;
-    top : 0px;
-    
-}
-
-.carousel-indicators {
-    bottom: 22px;
-}
-
-
-.carousel-caption {
-    text-shadow: none;
-    position: absolute;
-    padding-top: 0;
-    top: -7px;
-}
-
-body > div.portfolio > div.nosdernieresreal.container-fluid {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-/*css natalia*/
-
-
-.paragraphe1 {
-    font-size: 14px;
-    
-}
-
-header {
-    height: 700px
-}
-
-#contacter{
-background-color: #f0f0f0;
-padding-left: 0px; padding-right: 0px;
-height: 450px;
-
-}
 
 .container {
-     color: #ff3232;
-}
-
-.gauche {
-    color:black;
-    font-family: GinoraSans*;
-    font-size:18px;
-}
-
-h4 {
-    font-size: 18px;
-    color: #ff3232;
-}
-
-
-#contacter p {
-    font-size: 12px;
+    margin: 0;
     padding-left: 0px;
     padding-right: 0px;
 }
 
-
-
-.form-control {
-    color: #ff3232;
-    border: 2px solid #ff3232;
-  
-}
-
-.droite {
-    color:black;
-    font-family: GinoraSans*;
-    font-size:18px;
-}
-
-.form-control:focus {
-    border-color: #ff3232;
-    outline: 0;
-    box-shadow: none;
-}
-
-
-.form-control::-webkit-input-placeholder {
-    color: #ff3232;
-    font-family: GinoraSans*;
-    font-size:15px;
-}
-
-
-.form-control:-moz-placeholder {
-    color: #ff3232;
-    font-family: GinoraSans*;
-    font-size:15px;
-}
-
-
-.form-control::-moz-placeholder {
-    color: #ff3232;
-    font-family: GinoraSans*;
-    font-size:15px;
-}
-
-
-.form-control:-ms-input-placeholder {
-    color: #ff3232;
-    font-family: GinoraSans*;
-    font-size:15px;
-}
-
-.btn-primary {
-    color: #ff3232;
-    background-color: #f0f0f0;
-    border: 1px solid #ff3232;
-    font-family: GinoraSans*;
-    font-size:15px;
-    margin-top: 10px;
-}
-
-#contact > div:nth-child(3) > div > button:active{
-    background-color: #ff3232;
-    border:#ff3232 ;
-}
-
-.boutonform {
-    padding-top: 15px;
-}
-
-
-.droite {
-    color:black;
-    font-family: GinoraSans*;
-    font-size:18px;
-}
-
-textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="nom"]:focus
-border-color: rgba(126, 239, 104, 0.8);
-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
-outline: 0 none;}
-
-
-
-#contacter > div.container > div > div.gauche > img {
+.container-fluid  {
+    margin: 0;
     padding-left: 0px;
     padding-right: 0px;
 }
 
-#contacter > div.container > div > div.droite > img {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-
-.contact-form input {
-    border: solid 1px #ff3232;
-    background-color: #f0f0f0;
-    color: #ff3232;
-}
-
-#message {
-border: solid 1px #ff3232;   
-background-color: #f0f0f0;
-}
 
 /*
 CSS ALEX 
@@ -338,13 +41,52 @@ height: 500px;
 
 
 .titre2{
-    font:16px;
     color: #ff3232;
     text-align: center;
     transform: skewX(45deg);
     margin-top: 7px;
     margin-bottom: 7px;
+    font-size: 9px;
 }
+
+.border{
+    border: 2px solid #ff3232;
+    transform: skewX(-45deg);
+    background-color: white;
+    position: relative;
+    top:-55px;
+    width: 100px;
+}
+
+body > div.container-fluid.nosoffres > div:nth-child(3){
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+}
+
+body > div.container-fluid.nosoffres > div:nth-child(3) > div:nth-child(3){
+    left: 296px;
+    position: absolute;
+}
+
+body > div.container-fluid.nosoffres > div:nth-child(3) > div:nth-child(2){
+    left: 162px;
+    position: absolute;
+}
+
+body > div.container-fluid.nosoffres > div:nth-child(3) > div:nth-child(1){
+    left: 27px;
+    position: absolute;
+}
+
+text{
+    border: 2px solid #ff3232;
+    background-color: #f0f0f0;
+    opacity: 0.9;
+    top: 61px;
+    z-index: 2;
+} 
+
 
 #toffres{
     border-bottom: 2px solid #ff3232
@@ -354,49 +96,8 @@ height: 500px;
     border-color: #ff3232;
 }
 
-#contacter > .row > div {
-    margin-right: 0;
-    padding-right: 0;
-}
-
-hr {
-    width: 100%;
-}
-
-iframe {
-    width: 100%;
-    height: 300px;
-    max-height: 500px;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-.galery > .col-xs-12 > .row {
-    margin-bottom: 15px; 
-}
-
-.modal-content {
-    background-color: #ff3232;
-    border-radius: inherit;
-}
-
-.modal-header {
-    border: none;
-}
-
-.border-c{
-    margin-left: 25px;
-    margin-top: 5px;
-}
-
-#map {
-        width: 100%;
-        height: 400px;
-        background-color: grey;
-      }
+body > div.container-fluid.nosoffres > div:nth-child(3) > article > p{
+    border: 2px solid #ff3232;
 
 
 /* ---------------------- Responsive -------------------------- */
@@ -442,3 +143,4 @@ img {
         font-size: 16px;
     }
 }
+
