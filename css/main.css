@@ -13,6 +13,10 @@ body {
     overflow: hidden;
 }
 
+.row {
+    margin: 0;
+}
+
 #pcomplet{
     background-color: white;
 }
@@ -53,8 +57,6 @@ h6 {
     margin-bottom: 40px;
 }
 
-/*header natalia*/
-
 .btn-port {
     border: solid 2px #ff3232;
     font-size: 15px;
@@ -64,19 +66,6 @@ h6 {
     margin-top: 25px;
     margin-bottom: 25px;
     background-color: transparent;
-}
-
-
-.logocom {
-    margin-top: 50px;
-}
-
-.paragraphe1 {
-    font-size: 15px;
-    font-family: GinoraSans*;
-    color: #ff3232; 
-    margin-top: 40px;
-    margin-bottom: 50px;
 }
 
 
@@ -191,6 +180,10 @@ body > div.portfolio > div.nosdernieresreal.container-fluid {
 /*css natalia*/
 
 
+.paragraphe1 {
+    font-size: 14px;
+    
+}
 
 #contacter{
 background-color: #f0f0f0;
@@ -400,10 +393,24 @@ img {
         height: 400px;
         background-color: grey;
       }
+
+.logocom {
+    margin-top: 50px;
+}
+
+.paragraphe1 {
+    font-size: 15px;
+    font-family: GinoraSans*;
+    color: #ff3232; 
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
 .l-left {
-        padding-left: 0;
-        overflow: hidden;
-    }
+    padding-left: 0;
+    overflow: hidden;
+}
+
 .l-right {
     padding-right: 0;
     overflow: hidden;
@@ -502,4 +509,3 @@ a{color:#336699;}
         font-size: 16px;
     }
 }
-
