@@ -397,4 +397,47 @@ img {
         height: 400px;
         background-color: grey;
       }
+/* ---------------------- Responsive -------------------------- */
+@media only screen and (min-width : 992px) {
+    #carousel-example-generic {
+        height: 510px;
+    }
+    
+    .titre2 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    h4 {
+        font-size: 25px;
+    }
+    
+    #clients {
+        margin-top: 15px;
+    }
+    
+    .l-left {
+        padding-left: 0;
+        overflow: hidden;
+    }
+    
+    .icoform{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .icoform2{
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    
+    .titrecontact {
+        margin-bottom: 15px;
+    }
+    
+    #contacter p {
+        font-size: 16px;
+    }
+}
 
