@@ -34,6 +34,8 @@ function initMap() {
 
         center: NY,
         zoom: 8,
+        scrollwheel: false,
+        zoomControl: true,
         styles  :  [
   {
     "elementType": "geometry",
