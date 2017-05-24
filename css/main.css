@@ -72,6 +72,11 @@ h6 {
    padding: 30px 0 0 0; 
 }
 
+.nosoffres {
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+
 .icobtnport {
     width: 10px;
     height: auto;
@@ -348,7 +353,6 @@ CSS ALEX
 .nosoffres{
 background-color: #f0f0f0;
 padding-left: 0px; padding-right: 0px;
-height: 500px;
 
 }
 
@@ -557,5 +561,9 @@ a{color:#336699;}
     .btn-primary:hover {
         background-color: #ff3232;
         border: #ff3232;
+    }
+    
+    .titre {
+        text-align: right;
     }
 }
