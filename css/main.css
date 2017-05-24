@@ -217,7 +217,15 @@ h4 {
     padding-right: 0px;
 }
 
+#contacter > div.container > div > div.droite > img {
+    width: 20px;
+    margin-right: 15px;
+}
 
+
+#contacter > div.container > div > div.gauche > img {
+    width: 50px;
+}
 
 .form-control {
     color: #ff3232;
