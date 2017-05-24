@@ -328,6 +328,17 @@ h4 {
     font-size:18px;
 }
 
+.icoform {
+    width: 50px;
+    height:40px;
+}
+
+.icoform2 {
+    width: 40px;
+    height: 40px;
+}
+
+
 textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="nom"]:focus
 border-color: rgba(126, 239, 104, 0.8);
 box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
@@ -347,14 +358,23 @@ outline: 0 none;}
 
 
 .contact-form input {
-    border: solid 1px #ff3232;
-    background-color: #f0f0f0;
-    color: #ff3232;
+    border: solid 1px #ff3232 ;
+    background-color: #f0f0f0 ;
+    color: #ff3232 ;
+    border-radius: inherit;
+}
+
+.facebook {
+    margin-bottom: 30px;
 }
 
 #message {
-border: solid 1px #ff3232;   
-background-color: #f0f0f0;
+border: solid 1px #ff3232 ;   
+background-color: #f0f0f0 ;
+}
+
+.btn-primary {
+border-radius: inherit;
 }
 
 /*
