@@ -77,6 +77,16 @@ h6 {
     box-sizing: border-box;
 }
 
+body > div.container-fluid.nosoffres > div:nth-child(2){
+        position: relative;
+        z-index: 0;
+}
+
+body > div.container-fluid.nosoffres > div.row > div > p{
+    transform: skewX(45deg);
+    color: #ff3232 ;
+    }
+
 .icobtnport {
     width: 10px;
     height: auto;
