@@ -77,12 +77,20 @@ h6 {
     box-sizing: border-box;
 }
 
+.btn-offres {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+
 body > div.container-fluid.nosoffres > div:nth-child(2){
         position: relative;
         z-index: 0;
 }
 
-body > div.container-fluid.nosoffres > div.row > div > p{
+body > div.container-fluid.nosoffres > div.row > div > div > p{
     transform: skewX(45deg);
     color: #ff3232 ;
     }
@@ -508,6 +516,11 @@ header{
   cursor:pointer;
   outline:none;
   z-index:10000000000000;
+}
+.img-pro {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
 }
 .menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#ff3232;  position:absolute; text-align:center; font-size:12px;}
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
